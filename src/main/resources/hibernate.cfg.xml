@@ -15,6 +15,7 @@
             <property name="hibernate.hbm2ddl.auto">update</property>
 <!--            to show how sql commands are getting executed internally in configuration file-->
         <property name="hibernate.show_sql">true</property>
-        <mapping resource="student.hbm.xml"/>
+<!--        <mapping resource="student.hbm.xml"/>-->
+        <mapping class="com.hibernate.entity.Employee"/>
     </session-factory>
 </hibernate-configuration>
