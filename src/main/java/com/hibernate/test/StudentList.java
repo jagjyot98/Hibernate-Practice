@@ -1,3 +1,6 @@
+/* Notes:       Data when fetched from database comes in hash form. to make it readable we need toString method in Object class which converts hash and prints the data in our specified way
+
+ */
 package com.hibernate.test;
 import java.util.List;
 import com.hibernate.utility.HibernateUtil;

@@ -12,7 +12,7 @@ public class EmployeeInsert {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         Employee emp = new Employee();
-        emp.setEno(222);
+//        emp.setEno(222);
         emp.setEname("CDE");
         emp.setEsalary(2000);
         session.persist(emp);

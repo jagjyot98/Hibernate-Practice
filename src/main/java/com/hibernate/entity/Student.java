@@ -1,3 +1,7 @@
+/* Notes:       Data when fetched from database comes in a hashcode form.
+                to make it readable we need toString method in Object class which converts hash and prints the data in our specified way
+
+ */
 package com.hibernate.entity;
 
 public class Student {
@@ -29,6 +33,7 @@ public class Student {
         this.marks = marks;
     }
 
+    //implicitly called
     public String toString(){
         return sno+" "+name+" "+marks;
     }
