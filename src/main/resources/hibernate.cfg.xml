@@ -17,5 +17,7 @@
         <property name="hibernate.show_sql">true</property>
 <!--        <mapping resource="student.hbm.xml"/>-->
         <mapping class="com.hibernate.entity.Employee"/>
+        <mapping class="com.hibernate.entity.Customer"/>
+        <mapping class="com.hibernate.entity.Address"/>
     </session-factory>
 </hibernate-configuration>

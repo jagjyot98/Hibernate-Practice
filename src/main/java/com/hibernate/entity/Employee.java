@@ -24,7 +24,19 @@ public class Employee {
     @Column (name="empName")
     private String ename;
 
+/*    @OneToMany
+//    @JoinColumn(name = "address_address_id")
+    private Address address;    */
+
     private int esalary;
+
+//    public Address getAddress() {
+//        return address;
+//    }
+
+//    public void setAddress(Address address) {
+//        this.address = address;
+//    }
 
     public int getEno() {
         return eno;
